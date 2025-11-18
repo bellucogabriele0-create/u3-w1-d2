@@ -14,7 +14,7 @@ const Home = function () {
           <Col xs={12} md={8} lg={6}>
             {libri.map((libro) => {
               return (
-                <Card key={libro} style={{ width: '18rem', }}>
+                <Card key={libro} >
                   <Card.Img variant="top" src={libro.img} />
                   <Card.Body>
                     <Card.Title>{libro.title}</Card.Title>
