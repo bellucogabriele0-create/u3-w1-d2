@@ -19,7 +19,7 @@ const Home = function () {
                   <Card.Body>
                     <Card.Title>{libro.title}</Card.Title>
                     <Card.Text>Prezzo: {libro.price} €</Card.Text>
-                    <Button variant="primary">Aggiungi al carrello</Button>
+                    <Button variant="danger">Aggiungi al carrello</Button>
                   </Card.Body>
                 </Card>
               );
