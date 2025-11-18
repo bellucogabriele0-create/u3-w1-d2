@@ -1,9 +1,9 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import libri from "../data/history.json";
+import libri from "../data/scifi.json";
 
-const Home = function () {
+const Scifi = function () {
   return (
     <>
       <Container className="mt-3">
@@ -31,4 +31,4 @@ const Home = function () {
   );
 };
 
-export default Home;
+export default Scifi;
